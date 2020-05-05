@@ -1,0 +1,18 @@
+<?php
+
+namespace {{ namespace }};
+
+use Laravel\Nova\Dashboard;
+
+class {{ class }} extends Dashboard
+{
+    public function cards(): array
+    {
+        return [];
+    }
+
+    public static function uriKey(): string
+    {
+        return 'uri-key';
+    }
+}

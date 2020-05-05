@@ -1,0 +1,18 @@
+<?php
+
+namespace {{ namespace }};
+
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Http\Request;
+use Illuminate\Support\Carbon;
+use Laravel\Nova\Filters\DateFilter;
+
+class {{ class }} extends DateFilter
+{
+    public function apply(Request $request, Builder $query, $value): Builder
+    {
+        $value = Carbon::parse($value);
+
+        return $query;
+    }
+}
