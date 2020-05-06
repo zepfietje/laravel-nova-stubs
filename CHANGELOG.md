@@ -15,3 +15,6 @@
 ### Added
 
 - Customized stubs.
+
+[1.1.0]: https://github.com/zepfietje/laravel-nova-stubs/releases/tag/1.1.0
+[1.0.0]: https://github.com/zepfietje/laravel-nova-stubs/releases/tag/1.0.0
