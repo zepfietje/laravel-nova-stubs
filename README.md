@@ -9,7 +9,7 @@ Most notably, type declarations are used instead of DocBlocks.
 
 ## Installation
 
-1. Install the package.
+1. Install this package.
    ```console
    $ composer require zepfietje/laravel-nova-stubs --dev
    ```
