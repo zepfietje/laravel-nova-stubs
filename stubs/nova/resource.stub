@@ -19,7 +19,7 @@ class {{ class }} extends Resource
     public function fields(Request $request): array
     {
         return [
-            ID::make()->sortable(),
+            ID::make(__('ID'), 'id')->sortable(),
         ];
     }
 
