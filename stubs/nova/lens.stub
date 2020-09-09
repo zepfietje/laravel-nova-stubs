@@ -21,7 +21,7 @@ class {{ class }} extends Lens
     public function fields(Request $request): array
     {
         return [
-            ID::make('ID', 'id')->sortable(),
+            ID::make(__('ID'), 'id')->sortable(),
         ];
     }
 
