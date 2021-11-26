@@ -8,7 +8,7 @@ use Laravel\Nova\Filters\BooleanFilter;
 
 class {{ class }} extends BooleanFilter
 {
-    public function apply(Request $request, Builder $query, $value): Builder
+    public function apply(Request $request, $query, $value): Builder
     {
         return $query;
     }
